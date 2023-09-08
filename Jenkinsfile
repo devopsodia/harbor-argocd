@@ -1,4 +1,4 @@
-node (label 'jnode') {
+node ('jnode') {
 //       agent {
 //    //agent name 
 //    jnode
