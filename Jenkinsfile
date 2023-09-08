@@ -2,6 +2,7 @@ node {
       agent {
    //agent name
    label 'jnode'
+   node 'jnode'
   }
     
     def app
