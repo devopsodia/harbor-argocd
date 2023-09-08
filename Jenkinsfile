@@ -1,10 +1,10 @@
-node {
-      agent {
-   //agent name 
-   jnode
-   //label 'jnode'
-   //node 'jnode'
-  }
+node (label 'jnode') {
+//       agent {
+//    //agent name 
+//    jnode
+//    //label 'jnode'
+//    //node 'jnode'
+//   }
     
     def app
 
