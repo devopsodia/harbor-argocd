@@ -36,7 +36,7 @@ node ('jnode') {
         echo "Packing helm chart"
             sh "helm package -d ${WORKSPACE}/helm ${WORKSPACE}/helm/devopsodia"
            // sh "${WORKSPACE}/build.sh --pack_helm --push_helm --helm_repo ${HELM_REPO} --helm_usr ${HELM_USR} --helm_psw ${HELM_PSW}"
-           sh "curl -u admin:Harbor12345 oci://devopsodia-harbor.com/argocd-image-helm --upload-file ${WORKSPACE}/helm/devopsodia-1.tgz -v"
+           sh "curl -u admin:Harbor12345 devopsodia-harbor.com/chartrepo/argocd-image-helm --upload-file ${WORKSPACE}/helm/devopsodia-1.tgz -v"
             
         }
     
