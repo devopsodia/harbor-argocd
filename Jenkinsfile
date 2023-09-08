@@ -1,5 +1,9 @@
 node {
-    label 'jnode'
+      agent {
+   //agent name
+   label 'jnode'
+  }
+    
     def app
 
     stage('Clone repository') {
