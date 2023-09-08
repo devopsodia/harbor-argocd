@@ -1,8 +1,9 @@
 node {
       agent {
-   //agent name
-   label 'jnode'
-   node 'jnode'
+   //agent name 
+   jnode
+   //label 'jnode'
+   //node 'jnode'
   }
     
     def app
