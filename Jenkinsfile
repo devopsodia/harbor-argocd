@@ -1,4 +1,5 @@
 node {
+    label 'jnode'
     def app
 
     stage('Clone repository') {
